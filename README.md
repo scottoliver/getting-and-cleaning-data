@@ -14,12 +14,12 @@ The R script `run_analysis.R` contains the script used to transform the Samsung 
 * Extract the mean and standard deviation measurements (found using "mean" and "std") into a separate data set
 * Export a final data set containing the averages of each mean and standard deviation for each subject and activity
 
-## tinydataset.txt<a href="tinydataset"></a>
+## tinydataset.txt<a name="tinydataset"></a>
 The file `tinydataset.txt` is the output of `run_analysis.R`. To import this file into R, use the following R code:
 ```
 read.table("tidydataset.txt", header = TRUE)
 ```
 This will provide a data frame of 180 objects with 88 variables.
 
-## CodeBook.md<a href="codebook"></a>
+## CodeBook.md<a name="codebook"></a>
 For detailed information regarding the variables in tinydataset.txt, refer to the file `CodeBook.md`.
