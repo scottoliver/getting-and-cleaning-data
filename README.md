@@ -11,7 +11,7 @@ The R script `run_analysis.R` contains the script used to transform the Samsung 
 * Download and extract the data set from the zip file
 * Merge the testing and training data set into one complete set of data
 * Replace the activity codes with the corresponding activity names
-* Extract the mean and standard deviation measurements (found using "mean" and "std") into a separate data set
+* Extract the mean and standard deviation measurements (found using variable names containing "mean" and "std") into a separate data set
 * Export a final data set containing the averages of each mean and standard deviation for each subject and activity
 
 ## tinydataset.txt<a name="tinydataset"></a>
